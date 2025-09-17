@@ -1,8 +1,18 @@
 const bodyParser = require('body-parser')
 
+const routerBase =
+  process.env.DEPLOY_ENV === 'GH_PAGES'
+    ? {
+        router: {
+          base: '/<repository-name>/' // <- 改成你的 repo 名稱
+        }
+      }
+    : {}
+
 
 export default {
-
+  ...routerBase,
+  target: 'static', // 靜態站點
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'Covid-19 整合資訊',
