@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/taiwan", {data:[{}],fetch:{},mutations:void 0});
