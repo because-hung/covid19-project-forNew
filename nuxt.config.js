@@ -4,7 +4,7 @@ const bodyParser = require('body-parser')
 export default {
   target: 'static', // 靜態站點
   router: {
-    base: '/'
+    base: '/covid19-project-forNew/'
   },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
