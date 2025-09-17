@@ -192,10 +192,10 @@ export default {
   },
   methods: {
     thousandth(num) {
-      return String(num).replace(/(\d)(?=(\d{3})+$)/g, "$1,");
+      return String(num).replace(/(\d)(?=(\d{3})+$)/g, "$1,")
     },
     async getCovidVaccine() {
-      this.isLoading = true;
+      this.isLoading = true
       try {
         const self = this
         let res = vaccineCity.data
@@ -212,13 +212,13 @@ export default {
       } catch (error) {
         console.log("error: ", error)
       } finally {
-        this.isLoading = false;
+        this.isLoading = false
       }
     },
     async getCovidVaccineAll() {
-      this.isLoading = true;
+      this.isLoading = true
       try {
-        const self = this;
+        const self = this
         self.totalVaccineData = {
           updateTime: vaccineAll.a01,
           city: vaccineAll.a02,
@@ -229,7 +229,7 @@ export default {
       } catch (error) {
         console.log("error: ", error)
       } finally {
-        this.isLoading = false;
+        this.isLoading = false
       }
     },
   },

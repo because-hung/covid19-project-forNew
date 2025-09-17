@@ -105,7 +105,7 @@ export default {
   },
   methods: {
     async getCovidCity() {
-      this.isLoading = true;
+      this.isLoading = true
       try {
         const self = this
         self.data = confirmedCity
@@ -113,7 +113,7 @@ export default {
       } catch (error) {
         console.log("error: ", error)
       } finally {
-        this.isLoading = false;
+        this.isLoading = false
       }
     },
     getConfirmCases() {

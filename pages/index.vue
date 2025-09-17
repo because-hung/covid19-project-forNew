@@ -217,7 +217,7 @@ export default {
   },
   methods: {
     async getGobalData() {
-      this.isLoading = true;
+      this.isLoading = true
       try {
         const self = this
         const res = await this.$axios.$get(
@@ -227,11 +227,11 @@ export default {
       } catch (error) {
         console.log("error: ", error)
       }  finally {
-        this.isLoading = false;
+        this.isLoading = false
       }
     },
     async getTWData() {
-      this.isLoading = true;
+      this.isLoading = true
       try {
         const self = this
         const res = await this.$axios.$get(
@@ -242,7 +242,7 @@ export default {
       } catch (error) {
         console.log("error: ", error)
       } finally {
-        this.isLoading = false;
+        this.isLoading = false
       }
     },
     getTime() {
