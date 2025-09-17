@@ -23,7 +23,7 @@
 
 > 作品網址
 
-[https://flywing.site/](https://because-hung.github.io/covid19-project-forNew/)
+https://because-hung.github.io/covid19-project-forNew/
 
 <br />
 
