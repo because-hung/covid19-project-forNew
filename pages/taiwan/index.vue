@@ -94,7 +94,7 @@
 </template>
 
 <script>
-import { confirmedCity } from '../data/data'
+import { confirmedCity } from '../../assets/data/data'
 export default {
   data() {
     return {

@@ -179,8 +179,8 @@
 </template>
 
 <script>
-import { vaccineCity } from '../data/data'
-import { vaccineAll } from '../data/data'
+import { vaccineCity } from '../../assets/data/data'
+import { vaccineAll } from '../../assets/data/data'
 export default {
   data() {
     return {
