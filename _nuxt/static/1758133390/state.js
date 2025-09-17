@@ -1,0 +1,1 @@
+window.__NUXT__=(function(a){return {staticAssetsBase:"covid19-project-forNew\u002F_nuxt\u002Fstatic\u002F1758133390",layout:"default",error:a,serverRendered:true,routePath:"\u002F",config:{_app:{basePath:"covid19-project-forNew\u002F",assetsPath:"covid19-project-forNew\u002F_nuxt\u002F",cdnURL:a}}}}(null));
